@@ -1,5 +1,7 @@
 // Copyright 2021 NNTU-CS
-// arr - адрес первого элемента массива, size - размер массива в элементах, value - искомое значение
+// arr - адрес первого элемента массива
+// size - размер массива в элементах
+// value - искомое значение
 int cbinsearch(int *arr, int size, int value) {
     int left = 0;
     int right = size - 1;
